@@ -51,6 +51,7 @@ Abrimos  el navegador e introducimos la dirección
 IP de la maquina en la que instalamos  Haproxy.
 Y le añadimos  /haproxy?stats
 
-sudo sh -c "echo \<h1\> Hostname: webserver01 \(192.168.16.129\)\<\/h1\> >>/var/www/html/index.html"
-sudo sh -c "echo \<h1\> Hostname: webserver02 \(192.168.16.130\)\<\/h1\> >>/var/www/html/index.html"
+sudo sh -c "echo \<h1\> Hostname: webserver1 \(192.168.16.129\)\<\/h1\> >>/var/www/html/index.html"
+sudo sh -c "echo \<h1\> Hostname: webserver2 \(192.168.16.130\)\<\/h1\> >>/var/www/html/index.html"
 
+mkdir /var/www/html/
